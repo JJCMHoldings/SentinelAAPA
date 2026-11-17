@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database name="default" defaultIdMethod="native" namespace="ChurchCRM\Plugins\Sentinel\Model">
+  <table name="sentinel_record" phpName="SentinelRecord">
+    <column name="record_key" phpName="RecordKey" type="VARCHAR" size="100" primaryKey="true" required="true"/>
+    <column name="kind" phpName="Kind" type="VARCHAR" size="24" required="true"/>
+    <column name="payload" phpName="Payload" type="LONGVARCHAR" required="true"/>
+    <column name="revision" phpName="Revision" type="INTEGER" required="true" defaultValue="1"/>
+    <index name="sentinel_kind"><index-column name="kind"/></index>
+    <vendor type="mysql"><parameter name="Engine" value="InnoDB"/></vendor>
+  </table>
+</database>

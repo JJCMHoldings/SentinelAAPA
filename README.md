@@ -1,5 +1,10 @@
 # ChurchCRM
 
+This fork bundles **Sentinel**, a ministry operations plugin with an AAPA default
+profile. See the [Sentinel guide](src/plugins/core/sentinel/README.md) for setup,
+permissions, partner records, event approval, email and website integration.
+ChurchCRM's normal finance, fundraising, donation and import features remain available.
+
 ChurchCRM helps churches organize people and families, groups, events, attendance, giving, volunteers, and reports in one place.
 
 **Free. No subscription. Your data is yours.**
