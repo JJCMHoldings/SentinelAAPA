@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title">
+  <title id="title">AAPA ministry event</title>
+  <rect width="1200" height="630" fill="#101e32"/>
+  <path d="M120 110h180v140c0 100-90 155-90 155s-90-55-90-155z" fill="#d0ad68"/>
+  <path d="M210 150v170m-55-110h110" fill="none" stroke="#101e32" stroke-width="18"/>
+  <text x="360" y="275" fill="#fff" font-family="sans-serif" font-size="84" font-weight="700">AAPA</text>
+  <text x="360" y="350" fill="#d0ad68" font-family="sans-serif" font-size="38">MINISTRY EVENT</text>
+</svg>

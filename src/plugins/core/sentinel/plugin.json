@@ -1,0 +1,25 @@
+{
+  "id": "sentinel",
+  "name": "Sentinel",
+  "description": "Ministry contacts, partners, event publication, volunteer assignments and consented email.",
+  "version": "1.0.0",
+  "author": "JJCM Holdings",
+  "type": "core",
+  "minimumCRMVersion": "7.8.5",
+  "mainClass": "ChurchCRM\\Plugins\\Sentinel\\SentinelPlugin",
+  "routesFile": "routes/routes.php",
+  "settingsUrl": "plugins/sentinel",
+  "settings": [
+    {
+      "key": "organizationName",
+      "label": "Organization name",
+      "type": "text",
+      "default": "Abolish Abortion Pennsylvania"
+    },
+    { "key": "terminology", "label": "Terminology mapping (JSON)", "type": "text", "default": "" },
+    { "key": "mailchimpApiKey", "label": "Mailchimp API key", "type": "password" },
+    { "key": "mailchimpMappings", "label": "Team to audience mapping (JSON)", "type": "text", "default": "{}" },
+    { "key": "newsletterUrl", "label": "Mailchimp hosted newsletter signup URL", "type": "text" }
+  ],
+  "menuItems": [{ "parent": "People", "label": "Sentinel", "url": "plugins/sentinel", "icon": "fa-shield-halved" }]
+}
